@@ -166,6 +166,7 @@ img {
   padding: 200px 0;
   height: 600px;
   width: 1600px;
+  margin: auto;
   background-color: var(--primary-background-color);
   text-align: center;
   background-image: linear-gradient(
