@@ -12,6 +12,8 @@
   --social-icon-color: rgba(175, 177, 184, 1);
   --social-networks-background-color: rgba(255, 255, 255, 0.1);
   --clients-background-color: #e5e5e5;
+  --icon-color: #212121;
+  --accent-icon-color: #2196f3;
 }
 
 p,
@@ -147,7 +149,6 @@ img {
   width: 16px;
   height: 12px;
 }
-
 
 /*-------------HERO-------------*/
 
