@@ -624,3 +624,7 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
+
+.contact-item {
+  padding: 32px 0;
+}
