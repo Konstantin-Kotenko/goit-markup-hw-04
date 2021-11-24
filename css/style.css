@@ -140,6 +140,11 @@ img {
   color: var(--accent-color);
 }
 
+.contact-item {
+  padding: 32px 0;
+  color: var(--text-color) ;
+}
+
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
@@ -148,7 +153,10 @@ img {
 .icon-contact {
   width: 16px;
   height: 12px;
+  fill: currentColor;
 }
+
+
 
 /*-------------HERO-------------*/
 
@@ -625,6 +633,3 @@ img {
   margin: -1px;
 }
 
-.contact-item {
-  padding: 32px 0;
-}
