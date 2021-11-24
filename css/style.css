@@ -142,7 +142,7 @@ img {
 
 .contact-item {
   padding: 32px 0;
-  color: var(--text-color) ;
+  color: var(--text-color);
 }
 
 .nav-link:hover,
@@ -155,8 +155,6 @@ img {
   height: 12px;
   fill: currentColor;
 }
-
-
 
 /*-------------HERO-------------*/
 
@@ -632,4 +630,3 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
-
