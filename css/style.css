@@ -129,6 +129,7 @@ img {
 }
 
 .contact-link {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -151,8 +152,7 @@ img {
 }
 
 .icon-contact {
-  width: 16px;
-  height: 12px;
+margin-right: 10px;
   fill: currentColor;
 }
 
@@ -187,9 +187,6 @@ img {
 
 /*-------------QUALITIES-------------*/
 
-.container-qualities {
-  justify-content: center;
-}
 
 .qualities-title {
   font-weight: 700;
@@ -198,6 +195,18 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-shade-color);
+}
+
+.qualities-list{
+  display: flex;
+}
+
+.qualities-picture-icon{
+  justify-items: center;
+  align-items: center;
+  background: #F5F4FA;
+border-radius: 4px;
+padding: 25px 100px;
 }
 
 .qualities-title {
@@ -211,36 +220,8 @@ img {
   color: var(--text-color);
 }
 
-.qualities-list {
-  display: flex;
-}
-
-.qualities-item:not(:last-child) {
+.qualities-item:not(:last-child){
   margin-right: 30px;
-}
-
-.qualities-picture-list {
-  display: flex;
-}
-
-.qualities-picture-item {
-  width: 270px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  background: var(--secondary-background-color);
-  margin-bottom: 30px;
-}
-
-.qualities-picture-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.qualities-picture-icon {
-  width: 70px;
-  height: 70px;
 }
 
 /*-------------ACTION-------------*/
@@ -303,6 +284,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-shade-color);
 }
+
+
 
 .teammate-position {
   font-size: 16px;
