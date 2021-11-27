@@ -12,8 +12,6 @@
   --social-icon-color: rgba(175, 177, 184, 1);
   --social-networks-background-color: rgba(255, 255, 255, 0.1);
   --clients-background-color: #e5e5e5;
-  --icon-color: #212121;
-  --accent-icon-color: #2196f3;
 }
 
 p,
@@ -435,7 +433,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--secondary-color);
   margin-bottom: 20px;
   display: flex;
 }
@@ -467,7 +465,6 @@ img {
 
 .links-icon {
   fill: currentColor;
-  
 }
 
 .links-link:hover,
